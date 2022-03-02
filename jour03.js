@@ -72,8 +72,18 @@ while( counter <= limit ) {
     total += counter
     counter ++
 }
+
 console.log(total)
 
 // Bonus III
 
+var students = ["Alin", "Eloi", "Jong", "Ahmed", "Salwa", "Karimou", "Kevin"]
+
+var random = Math.floor( Math.random() * students.length)
+
+var randomStudents = students[random]
+
+console.log(randomStudents)
+
+// Bonus IV
 
