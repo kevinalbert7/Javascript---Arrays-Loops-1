@@ -87,3 +87,25 @@ console.log(randomStudents)
 
 // Bonus IV
 
+var emptyArray = []
+var min = 0
+var max = 100
+
+for( var i = 0; i < 20; i++ ) {
+    var random = Math.floor(Math.random() * (max - min +1)) + min
+    emptyArray.push(random)
+}
+
+console.log(emptyArray)
+
+var iMax = 0
+
+for( var i = 0; i < emptyArray.length; i++ ) {
+
+    if( emptyArray[i] > iMax ) {
+        iMax = emptyArray[i]
+    } 
+}
+console.log(iMax)
+
+// A chaque incremnentation, je veux pousser dans emptyArray, un nombre aléatoire compris entre 0 et 100
